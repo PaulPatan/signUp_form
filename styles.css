@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url("Norse-Bold.otf");
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: 'Roboto'
+
+}
+
+.ribbon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+aside h1 {
+    font-size: 4vw;
+    color: white;
+    font-family: 'Norse-Bold';
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+.sidebar {
+    width: 30%;
+    background-image: url("backgroundBike4.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 15%;
+}
+
+.form-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    height: 100vh;
+}
+
+#first-row-form b {
+    display: block;
+    margin: 20px 0;
+}
+
+
+#first-row-form {
+    height: 30%;
+    background-color: #ececec;
+    padding: 20px;
+    overflow: auto;
+}
+
+#second-row-form {
+    height: 50%;
+}
+
+
+#third-row-form {
+    background-color: #ececec;
+    box-shadow: inset 0px 11px 8px -10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+#third-row-form a {
+    padding: 10px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px rgba(103, 103, 103, 0.2);
+    width: 25%;
+    height: 50%;
+    color: white;
+    background-color: #596D48;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+#second-row-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: inset 0px 11px 8px -10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    flex: 1 0 50%;
+}
+
+.input-group label {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+form input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus,
+textarea:focus {
+    border-radius: 5px;
+    border: 3px solid blue;
+    box-shadow: 3px 3px 3px rgba(103, 103, 103, 0.2);
+}
